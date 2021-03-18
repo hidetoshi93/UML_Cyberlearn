@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2021-03-18T01:23:03.755Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54" etag="JBRLEwO3Pmi2BWLpwPmb" version="14.4.8" type="github">
+<mxfile host="app.diagrams.net" modified="2021-03-18T16:58:39.538Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/89.0.4389.90 Safari/537.36 Edg/89.0.774.54" etag="KkTEFft96XV3-rT-RRFK" version="14.4.8" type="github">
   <diagram id="fFWCFoptUsp6qO4R4GOw" name="Page-1">
     <mxGraphModel dx="1038" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="zKnBD9OOjZ6qVMltD_tS-1" value="SinhVien" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="320" y="160" width="230" height="260" as="geometry" />
+          <mxGeometry x="120" y="160" width="230" height="260" as="geometry" />
         </mxCell>
         <mxCell id="zKnBD9OOjZ6qVMltD_tS-2" value="+ tenSV: string&#xa;+ maSV: int&#xa;+ diemToan: float&#xa;+ diemLy: float&#xa;+ diemHoa: float&#xa;+ diemTB: float&#xa;+ xepLoai: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zKnBD9OOjZ6qVMltD_tS-1">
           <mxGeometry y="26" width="230" height="114" as="geometry" />
@@ -15,6 +15,18 @@
         </mxCell>
         <mxCell id="zKnBD9OOjZ6qVMltD_tS-4" value="+ SinhVien();&#xa;+ SinhVien(ten, ma, toan, ly, hoa);&#xa;+ tinhDiemTB();&#xa;+ xepLoai();&#xa;+ nhap();&#xa;+ xuat();" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zKnBD9OOjZ6qVMltD_tS-1">
           <mxGeometry y="150" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="zKnBD9OOjZ6qVMltD_tS-5" value="DanhSachSinhVien" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
+          <mxGeometry x="450" y="160" width="220" height="230" as="geometry" />
+        </mxCell>
+        <mxCell id="zKnBD9OOjZ6qVMltD_tS-6" value="+ ArrayList&lt;SinhVien&gt; listSV;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zKnBD9OOjZ6qVMltD_tS-5">
+          <mxGeometry y="26" width="220" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="zKnBD9OOjZ6qVMltD_tS-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;" vertex="1" parent="zKnBD9OOjZ6qVMltD_tS-5">
+          <mxGeometry y="126" width="220" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="zKnBD9OOjZ6qVMltD_tS-8" value="+ DanhSachSinhVien();&#xa;+ nhap();&#xa;+ xuat();&#xa;+ tinhDiemTB();&#xa;+ xepLoai();&#xa;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="zKnBD9OOjZ6qVMltD_tS-5">
+          <mxGeometry y="134" width="220" height="96" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
